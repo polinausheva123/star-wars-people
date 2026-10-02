@@ -15,19 +15,19 @@ export const DataCards = ({ data }: DataCardsProps) => {
           <h2 className="text-lg font-semibold text-gray-900">{person.name}</h2>
           <div className="text-sm text-gray-600 space-y-1">
             <p>
-              <span className="font-medium text-gray-800">Height:</span>{" "}
+              <span className="font-medium text-gray-800">Height:</span>
               {person.height} cm
             </p>
             <p>
-              <span className="font-medium text-gray-800">Mass:</span>{" "}
+              <span className="font-medium text-gray-800">Mass:</span>
               {person.mass} kg
             </p>
             <p>
-              <span className="font-medium text-gray-800">Hair Color:</span>{" "}
+              <span className="font-medium text-gray-800">Hair Color:</span>
               {person.hair_color}
             </p>
             <p>
-              <span className="font-medium text-gray-800">Skin Color:</span>{" "}
+              <span className="font-medium text-gray-800">Skin Color:</span>
               {person.skin_color}
             </p>
           </div>
